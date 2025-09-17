@@ -102,7 +102,12 @@ else:
 """Contraseña correcta
 Pedí al usuario que ingrese una contraseña.
 Si coincide con "python123", mostrar "Acceso concedido", si no, "Acceso denegado"."""
+contra= input("ingresar una contraseña: ")
+if contra == "python123":
+    print("acceso consedido")
 
+else:
+    print("Acceso denegado: ")
 
     
 
